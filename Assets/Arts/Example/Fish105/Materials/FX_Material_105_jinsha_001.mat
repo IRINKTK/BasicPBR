@@ -1,0 +1,130 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: FX_Material_105_jinsha_001
+  m_Shader: {fileID: 4800000, guid: a1b3d010a5012ae4bbbd4310430df169, type: 3}
+  m_ShaderKeywords: _DISTORTION_ON _MASK_ON _SCROLL_ON
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: 3002
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _BaseMap:
+        m_Texture: {fileID: 2800000, guid: 142b6c2f3d40dee409e9ebbee774d56a, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ColorTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _CutoutTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MaskTex:
+        m_Texture: {fileID: 2800000, guid: 29e5fd45f7d3aae41ad0c253779bc7c2, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _UVNoiseTex:
+        m_Texture: {fileID: 2800000, guid: b68f567645fe5e2409b5d879fe4a408a, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _VertexAnimateTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _AddColorName: 0
+    - _Addcolor: 0
+    - _AlphaClip: 0
+    - _AlphaScale: 2
+    - _BaseName: 0
+    - _Blend: 0
+    - _BlendName: 0
+    - _BumpScale: 1
+    - _ClearCoatMask: 0
+    - _ClearCoatSmoothness: 0
+    - _Cull: 0
+    - _CustomCutOut: 0
+    - _CustomUV: 0
+    - _CutOut: 0
+    - _Cutoff: 0.5
+    - _CutoutThreshold: 0
+    - _DetailAlbedoMapScale: 1
+    - _DetailNormalMapScale: 1
+    - _Dissolve: 0
+    - _DissolveName: 0
+    - _Distortion: 1
+    - _DistortionName: 0
+    - _DstBlend: 1
+    - _DstBlendRGB: 1
+    - _EnvironmentReflections: 1
+    - _GlossMapScale: 0
+    - _Glossiness: 0
+    - _GlossyReflections: 0
+    - _GlowScale: 5
+    - _InvFade: 1
+    - _Mask: 1
+    - _MaskName: 0
+    - _Metallic: 0
+    - _OcclusionStrength: 1
+    - _Parallax: 0.005
+    - _QueueOffset: 0
+    - _ReceiveShadows: 1
+    - _Scroll: 1
+    - _ScrollName: 0
+    - _Smoothness: 0.5
+    - _SmoothnessTextureChannel: 0
+    - _SoftOn: 0
+    - _SpecularHighlights: 1
+    - _SrcBlend: 5
+    - _SrcBlendRGB: 5
+    - _Surface: 0
+    - _UVDistortion: 0.2
+    - _UseCutoutTex: 0
+    - _UseParticlesAlphaCutout: 0
+    - _UseSoftCutout: 0
+    - _VertexAnimateName: 0
+    - _VertexScrollingX: 0
+    - _VertexScrollingY: 0
+    - _VertexStrength: 0
+    - _Vertexani: 0
+    - _WorkflowMode: 1
+    - _ZTest: 2
+    - _ZWrite: 1
+    - _ZWriteMode: 0
+    m_Colors:
+    - _BaseColor: {r: 8.47419, g: 8.47419, b: 8.47419, a: 1}
+    - _ClipRect: {r: -1, g: -1, b: 0, a: 0}
+    - _Color: {r: 1, g: 1, b: 1, a: 1}
+    - _CutoutColor: {r: 0, g: 0, b: 0, a: 1}
+    - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
+    - _MainSpeed: {r: -0.15, g: 0, b: 0, a: 0}
+    - _MaskSpeed: {r: 0, g: 0, b: 0, a: 0}
+    - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
+    - _UVCutOutScroll: {r: 0, g: 0, b: 0, a: 0}
+    - _UVScrollDir: {r: 0.15, g: 0, b: 0, a: 0}
+  m_BuildTextureStacks: []
+--- !u!114 &5861221375102743903
+MonoBehaviour:
+  m_ObjectHideFlags: 11
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0353a89b1f911e48b9e16bdc9f2e058, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 4
